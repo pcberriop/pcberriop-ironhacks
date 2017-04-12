@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Maps Demo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="Map.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="main.css"  />
+</head>
+<body>
+
+<!-- Header -->
+<header id="header">
+    <div class="inner">
+        <a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+        <h1><strong>UNrent</strong></h1>
+    </div>
+</header>
+
+<div id="main">
+
+    <!-- One -->
+    <section id="one">
+        <header class="major">
+            <h2>Description.</h2>
+        </header>
+        <p>Beta: Positions to rent a room or house.</p>
+    </section>
+
+    <!-- Two -->
+    <section id="two">
+        <div class="row">
+            <div class="col-sm-7 col-md-7" id="map_container">
+                <div id="map"></div>
+            </div>
+        </div>
+    </section>
+</div>
+
+</body>
+<script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOQ77lY5uY_6ToCdxuwqkFe5oa-zZ3icI&callback=initMap">
+</script>
+</html>
